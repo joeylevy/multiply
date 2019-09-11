@@ -1,10 +1,11 @@
-$(function() {
-  $('body').on('change', '.number', function() {
-    x = parseFloat($('#x').val());
-    y = parseFloat($('#y').val());
-    z = parseFloat($('#z').val());
-    multiply([x, y, z]);
-  });
+//USE THIS OR SOMETHING LIKE IT TO GET INITIAL VALUES TO MULTIPLY
+//$(function() {
+//  $('body').on('change', '.number', function() {
+//    x = parseFloat($('#x').val());
+//    y = parseFloat($('#y').val());
+//    z = parseFloat($('#z').val());
+//    multiply([x, y, z]);
+//  });
 
 }); //end onloads
 
